@@ -1,0 +1,245 @@
+:root{
+    --width: 100px;
+    --padding: 10px;
+    --background-color: rgb(233, 33, 30);
+    --hover-color:  rgb(184, 11, 8);
+    --width-collapsed: 50px;
+    --border-color: black;
+    }
+    body{
+        padding: 0;
+        margin: 0;
+        margin-left: var(--width-collapsed);
+        background-color: black;
+    }
+    .body-expanded{
+        margin-left: var(--width);
+    }
+    #sidemenu{
+        background-color: var(--background-color);
+        color: black;
+        position: fixed;
+        height: 100%;
+        left: 0;
+        top: 0;
+        text-align: center;
+    }
+    #sidemenu a{
+        color:black;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    } 
+    
+    #sidemenu #header #title{
+       
+        overflow: hidden;
+    
+    }
+    #sidemenu #header, #sidemenu #header #menu-btn{
+    vertical-align:middle;
+    }
+    #sidemenu #header #menu-btn{
+        display: inline-block;
+    }
+     #sidemenu #header #menu-btn{
+        cursor:pointer;
+        padding:10px;
+        width: var(--width-collapsed);
+        box-sizing: border-box;
+     }
+     
+    
+    #sidemenu #header #menu-btn .btn-hamburguer{
+        background-color: white;
+        width: 100%;
+        height: 2px;
+        margin: 5px 0;
+    }
+    #sidemenu #menu-itmes{
+        overflow: hidden;
+    }
+    #sidemenu #menu-itmes:hover{
+    background-color: var(--hover-color);
+     transition: all .3s;
+      transform: scale(.95);
+    }
+    
+    .menu-item{
+        height: 25px;
+        width: 25px;
+    }
+    span{
+        font-size: small;
+        font-family: 'Oswald', sans-serif;
+    }
+    .logo{
+        height: 70px;
+        width: 70px;
+        size: cover;
+        
+    }
+    
+    #sidemenu #profile #photo img{
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    .cajaprin{
+        background-color: #190A18;
+        height: 270px;
+        align-items: center;
+        text-align: center;
+        color: white;
+    }
+    .CajaSec{
+        background-color: #000000;
+        height: 350px;
+        align-items: center;
+        text-align: center;
+        color: white;
+    }
+    .CajaNot{
+        background-color: #3A3D41;
+        text-align: center;
+        margin: auto;
+        height: 240px;
+        width: 800px;
+        align-items: center;
+    }
+    h1{
+        font-size: x-large;
+        font-family: 'Kanit', sans-serif;
+        color: #ffffff;
+    }
+    h3{
+        font-size: large;
+        font-family: 'Kanit', sans-serif;
+    }
+    .Notic{
+        height: 140px;
+        width:300px;
+        size: cover;
+    }
+    h4,p{
+        text-align: center;
+        font-size: small;
+        font-family: 'Kanit', sans-serif;
+        color: #ffffff;
+    }
+    .info{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .textico{
+        text-align: center;
+        text-decoration: overline;
+        background:linear-gradient(#1497be, #1c2aec);
+        color:transparent;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        animation: text 5s linear infinite;
+    font-size: larger;
+    }
+    .nombren{
+        text-align: center;
+        text-decoration: overline;
+        background:linear-gradient(#ffffff, #ffffff);
+        color:transparent;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+    }
+    h5,h6{
+        font-family: 'Kanit', sans-serif;
+    }
+    p{
+        font-family: 'Kanit', sans-serif;
+    }
+    #cajadenot{
+        display: inline;
+    }
+    .imagendes{
+        height: 190px;
+        width: 300px; 
+    }
+    #carouselExampleCaptions{
+    
+    width: 800px; 
+    align-items: center;
+    margin: auto;
+    }
+    
+    .carousel-control-prev:hover,.carousel-control-next:hover{
+        background-color: #3a3d41d2;
+        transition: all .3s;
+        transform: scale(.95);
+    }
+    
+    .carousel-control-prev,.carousel-control-next{
+        height: 150px; 
+    
+    
+    }
+    a{
+        text-decoration: none;
+        color: aliceblue;
+    }
+    a:hover{
+        transition: all .3s;
+        transform: scale(.80);
+    }
+    .sikas{
+        font-family: 'Kanit', sans-serif;
+        font-size: larger;
+    }
+    .sikas:hover{
+        text-align: center;
+        text-decoration: overline;
+        background:linear-gradient(#1497be, #1c2aec);
+        color:transparent;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        animation: text 5s linear infinite;
+    font-size: larger;
+    }
+    
+    #imagendes2{
+        height: 120px;
+        width: 120px;
+       border-radius: 50%;
+       margin: auto;
+    }
+    .unete{
+        display: flex;
+        margin: auto;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .img2{
+        color: #ffffff;
+    }
+    .iconos:hover{
+        background-color: #6c0b0b;
+    }
+    #carouselExampleFade{
+    
+        width: 800px; 
+        align-items: center;
+        margin: auto;
+        }
+       audio{
+        margin: auto;
+       }
+        @keyframes text {
+            0%{
+                filter:hue-rotate(0deg);
+            }
+            100%{
+                filter:hue-rotate(360deg);
+            }
+            }
+            

@@ -6,6 +6,13 @@
 --width-collapsed: 50px;
 --border-color: black;
 }
+.imgjue{
+    width: 200px;
+    height: 200px;
+}
+table{
+    margin: auto;
+}
 body{
     padding: 0;
     margin: 0;
@@ -211,7 +218,9 @@ font-size: larger;
     align-items: center;
     margin: auto;
     }
-   
+   audio{
+    margin: auto;
+   }
     @keyframes text {
         0%{
             filter:hue-rotate(0deg);
