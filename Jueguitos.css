@@ -114,6 +114,11 @@
         height: 40vh;
         margin: auto;
     }
+    #fotoRed{
+        height: 200px;
+        width: 200px;
+        size: cover;
+    }
     .card-body{
 text-align: center;
 align-items: center;
