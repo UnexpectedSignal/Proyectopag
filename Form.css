@@ -1,0 +1,119 @@
+:root{
+    --width: 100px;
+    --padding: 10px;
+    --background-color: rgb(233, 33, 30);
+    --hover-color:  rgb(184, 11, 8);
+    --width-collapsed: 50px;
+    --border-color: black;
+    }
+body{
+    font-family: 'Kanit', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #bd5c55;
+}.body-expanded{
+    margin-left: var(--width);
+}
+#sidemenu{
+    background-color: var(--background-color);
+    color: black;
+    position: fixed;
+    height: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+}
+#sidemenu a{
+    color:black;
+text-decoration: none;
+text-align: center;
+align-items: center;
+} 
+
+#sidemenu #header #title{
+   
+    overflow: hidden;
+
+}
+#sidemenu #header, #sidemenu #header #menu-btn{
+vertical-align:middle;
+}
+#sidemenu #header #menu-btn{
+    display: inline-block;
+}
+ #sidemenu #header #menu-btn{
+    cursor:pointer;
+    padding:10px;
+    width: var(--width-collapsed);
+    box-sizing: border-box;
+ }
+ 
+
+#sidemenu #header #menu-btn .btn-hamburguer{
+    background-color: white;
+    width: 100%;
+    height: 2px;
+    margin: 5px 0;
+}
+#sidemenu #menu-itmes{
+    overflow: hidden;
+}
+#sidemenu #menu-itmes:hover{
+background-color: var(--hover-color);
+ transition: all .3s;
+  transform: scale(.95);
+}
+
+.menu-item{
+    height: 25px;
+    width: 25px;
+}
+span{
+    font-size: small;
+    font-family: 'Oswald', sans-serif;
+}
+.logo{
+    height: 70px;
+    width: 70px;
+    size: cover;
+    
+}
+
+#sidemenu #profile #photo img{
+    border-radius: 50%;
+    overflow: hidden;
+}
+form{
+ padding: 30px 35px;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+border-radius: 20px;
+text-align: center;
+width: 340px;
+background-color: rgb(117, 77, 77);
+}
+.form-txt{
+    display: flex;
+    justify-content: space-between;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+}
+input , textarea{
+   
+    margin-bottom: 25px;
+    Border: 0; 
+    border-radius: 10px;
+}
+:focus{
+    outline: 2px solid red;
+}
+.btn{
+    background-color: #de1001;
+}
+.btn:hover{
+    background-color: #8b0b02;
+
+}
